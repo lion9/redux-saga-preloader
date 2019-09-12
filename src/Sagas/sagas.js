@@ -2,7 +2,7 @@ import { call, put, all } from 'redux-saga/effects';
 
 import { COMPLETE_DATA_FETCHING  } from "../Constants/action-types";
 import { FETCH_SUCCEEDED  } from "../Constants/action-types";
-import fetchData from '../api';
+import fetchData from '../API/api';
 
 const delay = (ms) => new Promise(res => setTimeout(res, ms));
 

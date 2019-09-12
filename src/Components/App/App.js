@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Loader from "./Loader";
-import TestReduxSagaString from "./TestReduxSagaString";
+import Loader from "../../Components/Loader/Loader";
+import TestReduxSagaString from "../../Components/ReduxSagaGreeting/ReduxSagaGreeting";
 import { Provider } from "react-redux";
 import { connect } from "react-redux";
-import store from "./store";
+import store from "../../Store/store";
 
 class App extends Component {
 

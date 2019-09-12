@@ -15,7 +15,7 @@ class Loader extends React.Component {
                 <SyncLoader
                     sizeUnit={"px"}
                     size={40}
-                    color={'#2788bc'}
+                    color={'#4da9bc'}
                     loading={this.state.loading}
                 />
             </div>

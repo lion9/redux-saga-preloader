@@ -1,4 +1,4 @@
-import { COMPLETE_DATA_FETCHING, FETCH_SUCCEEDED } from "./Constants/action-types";
+import { COMPLETE_DATA_FETCHING, FETCH_SUCCEEDED } from "../Constants/action-types";
 
 const initialState = {
     loading: true,

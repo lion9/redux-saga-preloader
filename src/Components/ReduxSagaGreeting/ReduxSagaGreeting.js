@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './TestReduxSagaString.scss';
+import './ReduxSagaGreeting.scss';
 import {connect} from "react-redux";
 
-class TestReduxSagaString extends Component {
+class ReduxSagaGreeting extends Component {
     render() {
         return (
             <div className="TestReduxSagaString">
@@ -18,4 +18,4 @@ const mapStateToProps = (state) => {
     }
 };
 
-export default connect(mapStateToProps)(TestReduxSagaString);
+export default connect(mapStateToProps)(ReduxSagaGreeting);
